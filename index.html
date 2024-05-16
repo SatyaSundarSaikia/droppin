@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pin Drop by Latitude and Longitude</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.20.1/ol.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.20.1/ol.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/ol@v9.2.0/dist/ol.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.2.0/ol.css">
+  <style>
+     #map {
+      width: 100%;
+      height: 800px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map" class="map"></div>
+  <div id="controls">
+    <label for="lat">Latitude: </label>
+    <input type="text" id="lat" placeholder="Enter latitude">
+    <label for="lon">Longitude: </label>
+    <input type="text" id="lon" placeholder="Enter longitude">
+    <button id="locate_Pindrop">Drop Pin</button>
+    <button id="locate_Pinremove">Remove Pin</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
